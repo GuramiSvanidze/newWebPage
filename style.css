@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+.text{
+  font-family: 'Assistant', sans-serif;
+  font-size: 70px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  color: rgb(229, 229, 233);
+}
+
+.intro{
+  background: rgb(46, 46, 46);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hide{
+  background:  rgb(46, 46, 46);
+  overflow: hidden;
+}
+
+.hide span{
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.forNam{
+  color: rgb(229, 229, 233);
+  font-size: 50px;
+  padding-bottom: 30px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
